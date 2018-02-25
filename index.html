@@ -6,14 +6,14 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  
+
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="Our Dead Fathers">
   <meta name="author" content="Summer Meyer">
 
   <title>Our Dead Fathers</title>
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  
+
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -24,45 +24,81 @@
 
 <body>
 
-  <!-- (1)Navigation -->
-  <!-- TODO implement responsive navigation that matches your IA design -->
-  <!-- TODO put this nav on every page -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    
+  <!-- Navigation -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Our Dead Fathers</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="shows.html">Shows</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="music.html">Music</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact/Book</a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </nav>
-
+  <!-- End Navigation -->
   <header>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
       </ol>
 
       <!-- Wrapper for slides -->
 
-      <!-- TODO: (2)Add images to your repository and update this code so the carousel has proper slides. -->
-
       <div class="carousel-inner" role="listbox">
-        <!-- Slide One - Set the background image for this slide in the line below -->
-        <div class="carousel-item active" style="background-image: url('http://placehold.it/1900x1080')">
+        <!-- Slide One -->
+        <div class="carousel-item active" style="background-image: url('images/carousel-0.jpg')">
           <div class="carousel-caption d-none d-md-block">
-            <h3>First Slide</h3>
-            <p>This is a description for the first slide.</p>
+            <h3>On Guitar</h3>
+            <p>Christopher Michael Meyer</p>
           </div>
         </div>
-        <!-- Slide Two - Set the background image for this slide in the line below -->
-        <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
+        <!-- Slide Two -->
+        <div class="carousel-item" style="background-image: url('images/carousel-1.jpg')">
           <div class="carousel-caption d-none d-md-block">
-            <h3>Second Slide</h3>
-            <p>This is a description for the second slide.</p>
+            <h3>On Bass</h3>
+            <p>Dan Infecto</p>
           </div>
         </div>
-        <!-- Slide Three - Set the background image for this slide in the line below -->
-        <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
+        <!-- Slide Three -->
+        <div class="carousel-item" style="background-image: url('images/carousel-2.jpeg')">
           <div class="carousel-caption d-none d-md-block">
-            <h3>Third Slide</h3>
-            <p>This is a description for the third slide.</p>
+            <h3>On Drums</h3>
+            <p>Randall Payne</p>
+          </div>
+        </div>
+         <!-- Slide Four -->
+        <div class="carousel-item" style="background-image: url('images/carousel-3.jpeg')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>On Vocals</h3>
+            <p>Christopher Michael Meyer</p>
+          </div>
+        </div>
+         <!-- Slide Five -->
+        <div class="carousel-item" style="background-image: url('images/carousel-4.jpeg')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Enjoy the Music</h3>
+            <p>Thanks for visiting</p>
           </div>
         </div>
       </div>
@@ -98,9 +134,7 @@
         <div class="card h-100">
           <h4 class="card-header">Card Title</h4>
           <div class="card-body">
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ipsam eos, nam perspiciatis natus commodi
-              similique totam consectetur praesentium molestiae atque exercitationem ut consequuntur, sed eveniet, magni
-              nostrum sint fuga.</p>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ipsam eos, nam perspiciatis natus commodi similique totam consectetur praesentium molestiae atque exercitationem ut consequuntur, sed eveniet, magni nostrum sint fuga.</p>
           </div>
           <div class="card-footer">
             <a href="#" class="btn btn-primary">Learn More</a>
@@ -139,8 +173,7 @@
             <h4 class="card-title">
               <a href="#">Project One</a>
             </h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt?
-              Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
           </div>
         </div>
       </div>
@@ -153,8 +186,7 @@
             <h4 class="card-title">
               <a href="#">Project Two</a>
             </h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna
-              varius vitae.</p>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
           </div>
         </div>
       </div>
@@ -167,8 +199,7 @@
             <h4 class="card-title">
               <a href="#">Project Three</a>
             </h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed cumque, odio distinctio
-              velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia recusandae vero vel quam!</p>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed cumque, odio distinctio velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia recusandae vero vel quam!</p>
           </div>
         </div>
       </div>
@@ -181,8 +212,7 @@
             <h4 class="card-title">
               <a href="#">Project Four 600x400 instead of 700x400</a>
             </h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna
-              varius vitae.</p>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
           </div>
         </div>
       </div>
@@ -195,8 +225,7 @@
             <h4 class="card-title">
               <a href="#">Project Five</a>
             </h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna
-              varius vitae.</p>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
           </div>
         </div>
       </div>
@@ -209,8 +238,7 @@
             <h4 class="card-title">
               <a href="#">Project Six</a>
             </h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque earum nostrum suscipit ducimus nihil provident,
-              perferendis rem illo, voluptate atque, sit eius in voluptates, nemo repellat fugiat excepturi! Nemo, esse.</p>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque earum nostrum suscipit ducimus nihil provident, perferendis rem illo, voluptate atque, sit eius in voluptates, nemo repellat fugiat excepturi! Nemo, esse.</p>
           </div>
         </div>
       </div>
@@ -230,8 +258,7 @@
           <li>Working contact form with validation</li>
           <li>Unstyled page elements for easy customization</li>
         </ul>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam
-          totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.
         </p>
       </div>
       <div class="col-lg-6">
@@ -245,8 +272,7 @@
     <!-- Call to Action Section -->
     <div class="row mb-4">
       <div class="col-md-8">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae
-          veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
       </div>
       <div class="col-md-4">
         <a class="btn btn-lg btn-secondary btn-block" href="#">Call to Action</a>
