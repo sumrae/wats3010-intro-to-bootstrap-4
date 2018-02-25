@@ -1,0 +1,83 @@
+/* Style footer */
+
+.footer-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-item-flex {
+  flex: 0 1 auto;
+}
+
+/* Style buttons and card headers */
+
+.btn-primary {
+  padding: 10px;
+  float: right;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #343a40;
+  border-color: #343a40;
+}
+
+.card-header {
+  color: white;
+  background-color: #343a40;
+  opacity: 0.7;
+}
+
+/* Style all font awesome social media icons */
+
+.btn-social-icon {
+  padding: 0;
+}
+
+.fa {
+  display: inline-block;
+  padding: 10px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+/* Style media queries */
+
+body {
+  background-color: aliceblue;
+}
+
+@media screen and (min-width: 400px) {
+  body {
+    background-color: #e9ecef;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    background-color: whitesmoke;
+  }
+}
+
+/* <a> elements with an href containing "com" */
+
+a[href*="gmail"] {
+  font-size: 1.5em;
+}
